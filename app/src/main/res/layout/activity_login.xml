@@ -33,25 +33,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/logo" />
 
-    <EditText
-        android:id="@+id/txtLogin"
-        android:layout_width="0dp"
-        android:layout_height="45dp"
-        android:background="@drawable/edittext_resister"
-        android:hint="Email/CPF"
-        android:imeOptions="actionNext"
-        android:inputType="textPersonName"
-        android:maxLength="40"
-        android:maxLines="1"
-        android:paddingStart="15dp"
-        android:paddingEnd="15dp"
-        android:textSize="15dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
-        android:textColorHint="@color/colorGrey"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/lblLogin"
-        app:layout_constraintTop_toBottomOf="@+id/lblLogin" />
+        <EditText
+            android:id="@+id/txtLogin"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:background="@drawable/edittext_resister"
+            android:hint="Usuário"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:maxLength="40"
+            android:maxLines="1"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textSize="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:textColorHint="@color/colorGrey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/lblLogin"
+            app:layout_constraintTop_toBottomOf="@+id/lblLogin" />
 
     <TextView
         android:id="@+id/lblSenha"
@@ -94,9 +94,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="42dp"
         android:background="@drawable/button_background"
-        android:text="Login"
+        android:text="Logar"
         android:textAllCaps="false"
-        android:textColor="@color/colorWhite"
+        android:textColor="@color/colorRed"
         android:textSize="24dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
@@ -109,29 +109,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Esqueci minha senha"
-        android:textSize="18dp"
+        android:textSize="18sp"
+        android:autoLink="all"
+        android:linksClickable="false"
+        android:selectAllOnFocus="false"
         android:textColor="@color/colorWhite"
         app:layout_constraintTop_toBottomOf="@id/btnLogin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="24dp"/>
 
+
     <TextView
         android:id="@+id/lblNaoCadastrado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ainda não tenho cadastro"
-        android:textSize="18dp"
+        android:layout_marginBottom="80dp"
+        android:text="Ainda não possui uma conta?"
         android:textColor="@color/colorWhite"
-        app:layout_constraintTop_toBottomOf="@id/lblEsqueceuSenha"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/lblRegistrar"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lblRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:autoLink="all"
+        android:linksClickable="false"
+        android:selectAllOnFocus="false"
+        android:text="@string/registrar"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/lblNaoCadastrado"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp"/>
-
-
-
-
-
-
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@id/lblNaoCadastrado"
+        app:layout_constraintTop_toTopOf="@id/lblNaoCadastrado" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
