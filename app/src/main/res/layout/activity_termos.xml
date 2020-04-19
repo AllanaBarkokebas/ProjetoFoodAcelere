@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.LoginActivity">
 
-    <include layout="@layout/resister_componets"/>
+    <include layout="@layout/termos_components"/>
 
 
 
