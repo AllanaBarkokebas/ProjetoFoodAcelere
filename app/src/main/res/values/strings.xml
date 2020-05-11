@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FoodAcelere</string>
+    <string name="registrar"><u>Registrar-se</u></string>
+    <string name="esquecisenha"><u>Esqueci minha senha</u></string>
+
+    <string name="termos"><i>Por este TERMO DE USO, o APPER da APLICATIVOS PARA CELULAR fica ciente
+       e concorda que ao utilizar a plataforma da APLICATIVOS PARA CELULAR para construir,
+        desenvolver e publicar seu APP, em qualquer plataforma de celular ou qualquer loja de
+        aplicativos, automaticamente aderirá e concordará em se submeter integralmente
+        às condições do presente TERMO DE USO e qualquer de suas alterações futuras</i></string>
+
+    <string name="linkTermos"><u>Termos de Uso</u></string>
+</resources>
+
+
