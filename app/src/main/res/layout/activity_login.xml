@@ -114,6 +114,7 @@
         android:id="@+id/lblNaoCadastrado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:layout_marginBottom="80dp"
         android:text="Ainda não possui uma conta?"
         android:textColor="@color/colorWhite"
@@ -122,7 +123,8 @@
         app:layout_constraintEnd_toStartOf="@id/lblRegistrar"
         app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblEsqueceuSenha" />
 
     <TextView
         android:id="@+id/lblRegistrar"
@@ -143,14 +145,14 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="241dp"
+        android:layout_width="255dp"
         android:layout_height="142dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.112"
+        app:layout_constraintVertical_bias="0.060000002"
         app:srcCompat="@drawable/logo_food_acelere" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
