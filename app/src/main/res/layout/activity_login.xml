@@ -112,8 +112,8 @@
 
     <TextView
         android:id="@+id/lblNaoCadastrado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="27dp"
         android:layout_marginTop="12dp"
         android:layout_marginBottom="80dp"
         android:text="Ainda não possui uma conta?"
@@ -124,12 +124,13 @@
         app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblEsqueceuSenha" />
+        app:layout_constraintTop_toBottomOf="@+id/lblEsqueceuSenha"
+        app:layout_constraintVertical_bias="0.342" />
 
     <TextView
         android:id="@+id/lblRegistrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="88dp"
+        android:layout_height="26dp"
         android:layout_marginStart="8dp"
         android:autoLink="all"
         android:linksClickable="false"

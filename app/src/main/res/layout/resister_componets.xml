@@ -349,13 +349,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="10dp"
+        android:layout_width="29dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="10dp"
         app:layout_constraintBottom_toTopOf="@+id/lblNomeCompleto"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.703"
         app:srcCompat="@drawable/botao_voltar" />
 
 
