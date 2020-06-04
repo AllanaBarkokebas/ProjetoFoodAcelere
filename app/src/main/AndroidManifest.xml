@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.food.foodacelere">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,19 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.HomeStoreActivity"></activity>
-        <activity android:name=".ui.SelectSignatureActivity" />
-        <activity android:name=".ui.SplashActivity">
+        <activity android:name=".ui.features.store.HomeStoreActivity"></activity>
+        <activity android:name=".ui.features.login.SelectSignatureActivity" />
+        <activity android:name=".ui.features.splash.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.CadastroActivity" />
-        <activity android:name=".ui.TermosActivity" />
-        <activity android:name=".ui.LoginActivity" />
-        <activity android:name=".ui.ForgotPasswordActivity" />
+        <activity android:name=".ui.features.signup.CadastroActivity" />
+        <activity android:name=".ui.features.signup.TermosActivity" />
+        <activity android:name=".ui.features.login.LoginActivity" />
+        <activity android:name="com.food.foodacelere.ui.features.recovery.ForgotPasswordActivity" />
     </application>
 
 </manifest>

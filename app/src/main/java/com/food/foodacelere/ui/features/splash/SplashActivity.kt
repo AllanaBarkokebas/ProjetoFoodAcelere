@@ -1,10 +1,11 @@
-package com.food.foodacelere.ui
+package com.food.foodacelere.ui.features.splash
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import com.food.foodacelere.R
+import com.food.foodacelere.ui.features.login.SelectSignatureActivity
 
 class SplashActivity : AppCompatActivity() {
 
@@ -17,7 +18,9 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 
         val handle = Handler()
-        handle.postDelayed({ showLogin() }, SPLASH_TIME_HANDLER)
+        handle.postDelayed({ showLogin() },
+            SPLASH_TIME_HANDLER
+        )
     }
 
     private fun showLogin() {

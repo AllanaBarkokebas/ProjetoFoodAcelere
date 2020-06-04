@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "475415813737",
+    "firebase_url": "https://softwarelab-699b4.firebaseio.com",
+    "project_id": "softwarelab-699b4",
+    "storage_bucket": "softwarelab-699b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475415813737:android:5580b20177ca1d3cf58cf8",
+        "android_client_info": {
+          "package_name": "com.food.foodacelere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475415813737-u3pjugbumm5n8ttdce0vtpp3q2jkonjh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.food.foodacelere",
+            "certificate_hash": "997f8eaeef2acb420d2f5623e6366fc366dbac4d"
+          }
+        },
+        {
+          "client_id": "475415813737-v4ipea83mghrhiimij6blhp0pr3789ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm45jeHjDrpRCJ-iHg_FCzS2IoUmpd5U4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475415813737-v4ipea83mghrhiimij6blhp0pr3789ib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

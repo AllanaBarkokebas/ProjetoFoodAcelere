@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.LoginActivity">
+    android:background="@drawable/backlogin"
+    tools:context=".ui.features.login.LoginActivity">
 
 
     <EditText
@@ -33,7 +34,7 @@
 
 
     <EditText
-        android:id="@+id/txtSenha"
+        android:id="@+id/txtLoginSenha"
         android:layout_width="0dp"
         android:layout_height="45dp"
         android:layout_marginStart="32dp"
@@ -54,22 +55,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txtLogin" />
 
+    <ProgressBar
+        android:id="@+id/loadingLoginProgress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLoginSenha" />
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="110dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="110dp"
-        android:background="@drawable/button_background"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button_background_primary"
         android:text="Login"
         android:textAllCaps="false"
-        android:textColor="@color/colorBlack"
+        android:textColor="@color/colorWhite"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txtSenha" />
+        app:layout_constraintTop_toBottomOf="@id/txtLoginSenha" />
 
     <TextView
         android:id="@+id/lblEsqueceuSenha"
@@ -81,7 +92,7 @@
         android:selectAllOnFocus="false"
         android:text="@string/esquecisenha"
         android:textColor="@color/colorBlack"
-        android:textSize="18sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnLogin" />
@@ -124,10 +135,18 @@
         android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="142dp"
-        android:layout_marginTop="80dp"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_logoback" />
+
+
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

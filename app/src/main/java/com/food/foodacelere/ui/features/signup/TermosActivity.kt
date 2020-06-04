@@ -1,12 +1,12 @@
-package com.food.foodacelere.ui
+package com.food.foodacelere.ui.features.signup
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.food.foodacelere.R
-import com.food.foodacelere.ui.CadastroActivity.Companion.TERM_ACCEPT
-import com.food.foodacelere.ui.CadastroActivity.Companion.TERM_RESULT
+import com.food.foodacelere.ui.features.signup.CadastroActivity.Companion.TERM_ACCEPT
+import com.food.foodacelere.ui.features.signup.CadastroActivity.Companion.TERM_RESULT
 import kotlinx.android.synthetic.main.activity_term.*
 import kotlinx.android.synthetic.main.toolbar.*
 

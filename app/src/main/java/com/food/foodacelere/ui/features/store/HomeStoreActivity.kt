@@ -1,4 +1,4 @@
-package com.food.foodacelere.ui
+package com.food.foodacelere.ui.features.store
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

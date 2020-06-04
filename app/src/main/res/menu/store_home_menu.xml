@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuHome"
+        android:title="Início"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/menuRequests"
+        android:title="Pedidos"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_list"/>
+
+    <item android:id="@+id/menuProfile"
+        android:title="Perfil"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_profile"/>
 
 </menu>

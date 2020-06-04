@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.TermosActivity"
+    tools:context=".ui.features.signup.TermosActivity"
+    android:background="@drawable/backlogin"
     android:layout_height="match_parent">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -27,7 +28,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         app:layout_constraintCircleRadius="10dp"
-        android:background="@color/colorWhite"
+        android:background="@drawable/button_background"
         android:layout_height="wrap_content">
 
         <TextView

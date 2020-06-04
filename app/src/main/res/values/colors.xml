@@ -4,5 +4,11 @@
     <color name="colorBlack">#000000</color>
     <color name="colorBlue">#4682B4</color>
     <color name="colorGrey">#c0c0c0</color>
+    <color name="colorTransparent">#99ffffff</color>
+    <color name="colorRed">#D63232</color>
+    <color name="colorGreenLight">#33D84F</color>
+
+
+
 
 </resources>
